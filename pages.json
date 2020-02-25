@@ -1,0 +1,77 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#aaaaff"
+			}
+		},
+		{
+			"path":"pages/personal/personal",
+			"style":{
+				"navigationBarTitleText":"个人中心",
+				"navigationBarBackgroundColor":"#e7bdff"
+				
+			}
+		},
+		{
+			"path":"pages/login/login",
+			"style":{
+				"navigationBarTitleText":"登录"
+			}
+		},
+		{
+			"path":"pages/shopCart/shopCart",
+			"style":{
+				"navigationBarTitleText":"购物车"
+			}
+		},
+		{
+			"path":"pages/list/list",
+			"style":{
+				"navigationBarTitleText":"商品列表"
+			}
+		},
+		{
+			"path":"pages/category/category",
+			"style":{
+				"navigationBarTitleText":"分类"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#aaaaff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#C0C0C0",
+		"selectedColor":"#aaaaff",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/tabBar/tab-home.png",
+				"selectedIconPath":"/static/tabBar/tab-home-current.png"
+			},{
+				"pagePath":"pages/category/category",
+				"text":"分类",
+				"iconPath":"static/tabBar/tab-cate.png",
+				"selectedIconPath":"static/tabBar/tab-cate-current.png"
+			},{
+				"pagePath":"pages/shopCart/shopCart",
+				"text":"购物车",
+				"iconPath":"static/tabBar/tab-cart.png",
+				"selectedIconPath":"static/tabBar/tab-cart-current.png"
+			},{
+				"pagePath":"pages/personal/personal",
+				"text":"个人",
+				"iconPath":"static/tabBar/tab-my.png",
+				"selectedIconPath":"static/tabBar/tab-my-current.png"
+			}
+		]
+	}
+}

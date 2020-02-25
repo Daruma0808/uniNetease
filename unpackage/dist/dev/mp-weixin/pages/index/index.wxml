@@ -1,0 +1,1 @@
+<view id="indexPage" class="_div"><view class="header _div"><image class="logo" src="../../static/img/logo.png" alt></image><view class="searchArea _div"><view class="iconfont icon-search1 _i"></view><input type="text" placeholder="请输入关键字" placeholder-class="inputholder"/></view><button>登录</button></view></view>

@@ -1,0 +1,54 @@
+#indexPage .header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 60rpx;
+  padding: 10rpx 0;
+}
+#indexPage .header .logo {
+  width: 140rpx;
+  height: 40rpx;
+  margin: 10rpx 26rpx 0 30rpx;
+}
+#indexPage .header .searchArea {
+  height: 60rpx;
+  width: 346rpx;
+  padding-left: 60rpx;
+  position: relative;
+  background-color: #f8f8f8;
+  border-radius: 7rpx;
+}
+#indexPage .header .searchArea .iconfont {
+  width: 60rpx;
+  height: 60rpx;
+  font-size: 40rpx;
+  position: absolute;
+  top: 4rpx;
+  left: 10rpx;
+  color: #999;
+}
+#indexPage .header .searchArea input {
+  border-radius: 10rpx;
+  height: 60rpx;
+  width: 390rpx;
+}
+#indexPage .header .searchArea .inputholder {
+  font-size: 24rpx;
+  color: #c0c0c0;
+}
+#indexPage .header button {
+  width: 120rpx;
+  height: 60rpx;
+  line-height: 54rpx;
+  font-size: 26rpx;
+  margin: 0 30rpx 0 20rpx;
+  border-radius: 7px;
+  boder: none;
+  color: #f8f8f8;
+  background-color: #aaf;
+}
+#indexPage .header button:after {
+  border: none;
+}
+
